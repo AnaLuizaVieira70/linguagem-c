@@ -5,9 +5,9 @@ int main(){
 	
 	int num1, num2, soma, sub, multi, divi, res;
 	
-	printf("Informe o primeiro numero inteiro: ");
+	printf("Informe o primeiro número: ");
 	scanf("%d", &num1);
-	printf("Informe o segundo numero inteiro: ");
+	printf("Informe o segundo número: ");
 	scanf("%d", &num2);
 	
 	soma = num1 + num2;
@@ -21,5 +21,5 @@ int main(){
     printf("%d \t \t %d \t \t numero1 - numeo2 = %d \n", num1, num2, sub);
     printf("%d \t \t %d \t \t numero1 * numeo2 = %d \n", num1, num2, multi);
     printf("%d \t \t %d \t \t numero1 / numeo2 = %d \n", num1, num2, divi);
-    printf("%d \t \t %d \t \t numero1 %% numeo2 = %d \n", num1, num2, res
-    );
+    printf("%d \t \t %d \t \t numero1 %% numeo2 = %d \n", num1, num2, res);
+    };
