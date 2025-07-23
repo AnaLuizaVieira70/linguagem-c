@@ -3,11 +3,11 @@
 
 int main(){
     int numero;
-    printf("informe um numero inteiro:");
+    printf("informe um número: ");
     scanf("%d",&numero);
     
     if(numero%2==0){
-        printf("%d é um numero par,\n",numero);
-         }else{printf("%d e um numero impar\n",numero);}
+        printf("%d é um número par,\n",numero);
+         }else{printf("%d é um número ímpar\n",numero);}
          return 0;
 }
